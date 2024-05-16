@@ -1,0 +1,15 @@
+icon_font:
+  input_svg_dir: "assets/ionicons/"
+  output_font_file: "assets/fonts/ionicons.otf"
+  
+  output_class_file: "lib/src/ionicons.dart"
+  class_name: "Ionicons"
+  package: flutter_ionicons
+  format: true
+
+  font_name: "Ionicons"
+  normalize: false
+  ignore_shapes: true
+
+  recursive: false
+  verbose: false
