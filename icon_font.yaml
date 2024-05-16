@@ -4,7 +4,6 @@ icon_font:
   
   output_class_file: "lib/src/ionicons.dart"
   class_name: "Ionicons"
-  package: flutter_ionicons
   format: true
 
   font_name: "Ionicons"
