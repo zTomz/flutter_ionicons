@@ -13,7 +13,10 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Icon(Ionicons.home),
+          child: Icon(
+            Ionicons.logo_chrome,
+            size: 128,
+          ),
         ),
       ),
     );

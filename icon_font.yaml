@@ -1,14 +1,16 @@
 icon_font:
   input_svg_dir: "assets/ionicons/"
-  output_font_file: "assets/fonts/ionicons.otf"
+  output_font_file: "lib/font/ionicons.otf"
   
   output_class_file: "lib/src/ionicons.dart"
   class_name: "Ionicons"
+  package: flutter_ionicons
   format: true
+  naming_strategy: "snake"
 
   font_name: "Ionicons"
-  normalize: false
-  ignore_shapes: true
+  normalize: true
+  ignore_shapes: false
 
   recursive: false
   verbose: false

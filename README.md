@@ -1,39 +1,22 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Flutter Ionicons
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+This package brings the newest version as of now of the [Ionicons](https://ionic.io/ionicons) icon set (Current V. 7.1.0). It is based on the [Icon Font Generator](https://github.com/stongef-sonepar/icon_font_generator) project with small changes to the generated code.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+import 'package:flutter_ionicons/ionicons.dart';
+
+Icon(
+    Ionicons.home,
+)
 ```
 
-## Additional information
+## Features
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+- Every svg from the Ionicons icon set is available as an [IconData](https://api.flutter.dev/flutter/widgets/IconData-class.html) object.
+- Small images when hovering in the editor, wich shows the icon
+
+## Bugs
+
+- Currently outlined icons are not supported.
